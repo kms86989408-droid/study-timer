@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Focus desk scene">
+  <rect width="640" height="360" rx="28" fill="#fffaf0"/>
+  <path d="M118 276h404" stroke="#28604f" stroke-width="18" stroke-linecap="round"/>
+  <path d="M164 118c46-20 102-12 136 22v132c-34-30-90-38-136-18V118Z" fill="#f0dfb5" stroke="#28604f" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M476 118c-46-20-102-12-136 22v132c34-30 90-38 136-18V118Z" fill="#f7e9ca" stroke="#28604f" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M300 140v132M340 140v132" stroke="#28604f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M198 160h54M198 190h66M198 220h44M386 160h54M376 190h66M398 220h44" stroke="#d97757" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="104" cy="126" r="35" fill="#e8d6a8"/>
+  <path d="M104 164v72" stroke="#28604f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M82 206c0-42 44-58 72-32-12 28-42 44-72 32Z" fill="#4d8d65"/>
+  <path d="M126 202c7-34 45-43 66-18-14 22-42 31-66 18Z" fill="#28604f"/>
+  <path d="M500 88h70v144c0 19-16 35-35 35s-35-16-35-35V88Z" fill="#d97757"/>
+  <path d="M488 88h94" stroke="#28604f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M520 124h30" stroke="#fffaf0" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="535" cy="246" r="17" fill="#fffaf0"/>
+</svg>

@@ -22,7 +22,9 @@
 - `src/components`: 앱 화면을 구성하는 React UI 컴포넌트
 - `src/features/settings`: 5분 단위 시간 설정 유틸과 unit test
 - `src/features/timer`: 타이머 상태 머신, 공부/휴식 모드, 시작/일시정지/재개/종료/초기화 로직과 unit test
-- `public`: PWA 아이콘 같은 정적 에셋
+- `src/features/timer/visual-progress.ts`: 남은 시간 기반 이미지 마스크 진행률 유틸과 unit test
+- `src/features/sessions`: 로컬 세션 원본, 일별 집계, 월간 캘린더 계산 유틸과 unit test
+- `public`: PWA 아이콘과 타이머 진행 이미지 같은 정적 에셋
 - Root config: TypeScript, Tailwind, ESLint, Vitest, Playwright 설정
 
 ## Data Flow
