@@ -16,6 +16,14 @@
 - Calendar view: 월간 일별 공부/휴식 기록과 날짜별 세션 목록
 - API client: 웹 UI와 API 호출 경계를 분리해 추후 앱 전환을 쉽게 한다.
 
+## Current Code Structure
+
+- `src/app`: Next.js App Router 진입점, 전역 스타일, PWA manifest
+- `src/components`: 앱 화면을 구성하는 React UI 컴포넌트
+- `src/features/settings`: 5분 단위 시간 설정 유틸과 unit test
+- `public`: PWA 아이콘 같은 정적 에셋
+- Root config: TypeScript, Tailwind, ESLint, Vitest, Playwright 설정
+
 ## Data Flow
 
 1. 사용자가 공부/휴식 시간을 5분 단위로 설정하고 타이머를 시작한다.
@@ -43,7 +51,6 @@
 
 ## Architecture TODO
 
-- Next.js 프로젝트 생성 후 실제 디렉터리 구조 반영
 - Firestore collection/document 구조 확정
 - Dockerfile, docker-compose, reverse proxy 설정 확정
 - ECS/Elastic Beanstalk 이전 시 필요한 배포 경계 문서화

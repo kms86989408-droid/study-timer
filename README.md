@@ -13,13 +13,23 @@
 
 ## Recommended Stack
 
-- Frontend/App: Next.js, React, TypeScript, PWA
+- Frontend/App: Next.js 16, React 19, TypeScript, PWA
 - UI: Tailwind CSS, lucide-react
 - API/Validation: Next.js Route Handlers, Zod
 - Auth/Data: Firebase Auth, Firestore
 - Tests: Vitest, React Testing Library, Playwright
 - Deploy: EC2, Docker, Docker Compose, Caddy or Nginx, GitHub Actions
 - Ops: AWS Billing Alert, CloudWatch logs, `/api/health`
+
+## Project Commands
+
+- `npm run dev`: Next.js 개발 서버
+- `npm run typecheck`: TypeScript 정적 검증
+- `npm run lint`: ESLint 검증
+- `npm run test`: Vitest unit test
+- `npm run test:unit`: Vitest unit test
+- `npm run test:e2e`: Playwright end-to-end test
+- `npm run build`: production build
 
 ## API Outline
 
@@ -35,17 +45,18 @@
 
 ## Implementation Steps
 
-현재 구현 진행률: 0% (계획 확정 완료, 구현 전)
+현재 구현 진행률: 12.5% (1/8 step 완료)
 
 진행률 계산: 완료된 step 수 / 전체 8개 step * 100
 
-1. 프로젝트/문서 기반 세팅
+1. 프로젝트/문서 기반 세팅 - 완료
    - Next.js, TypeScript, Tailwind, 테스트 환경 구성
    - 제품 목적, 아키텍처, 테스트 명령, 완료 기준 문서 갱신
    - EC2 + Docker 배포 ADR 유지
-   - 완료 후 unit test: 기본 렌더링, 설정 유틸 테스트
+   - 완료 후 unit test: 기본 렌더링, 설정 유틸 테스트 통과
 
-2. 타이머 핵심 로직
+2. 타이머 핵심 로직 - 진행 중
+   - 현재 기본 25분 카운트다운, 시작, 일시정지, 초기화 UI 동작 구현
    - 공부/휴식 시간을 5분 단위로 선택
    - 시작, 일시정지, 재개, 종료, 초기화 상태 구현
    - 남은 시간 계산

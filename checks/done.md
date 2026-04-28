@@ -17,11 +17,13 @@
 
 ## Project Commands
 
-Next.js 프로젝트 생성 후 실제 package scripts와 맞춘다.
+현재 package scripts와 맞춘다.
 
 - `npm run typecheck`
 - `npm run lint`
 - `npm run test`
+- `npm run test:unit`
+- `npm run test:e2e`
 - `npm run build`
 - `docker compose up --build`
 - `curl -f http://localhost:3000/api/health`

@@ -13,9 +13,9 @@
 3. 통합 검증: 호출 흐름, API, 상태 전이
 4. 수동 검증: UI, 운영 시나리오, 로그 확인
 
-## Command Placeholders
+## Project Commands
 
-Next.js 프로젝트 생성 후 아래 명령을 package scripts에 맞춰 유지한다.
+아래 명령은 `package.json` scripts와 맞춰 유지한다.
 
 - `npm run typecheck`
 - `npm run lint`
